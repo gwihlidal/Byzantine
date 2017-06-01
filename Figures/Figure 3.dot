@@ -1,0 +1,13 @@
+digraph byz {
+rankdir=LR;
+fontsize=8;
+nodesep=.0025;
+node [fontsize=8,width=.005,height=.005,shape=plaintext];
+edge [fontsize=10,arrowsize=0.25];
+General->"{1,1,?}" [style=dotted]; 
+"{1,1,?}"->12; 12 [ label="{1,12,?}" ];
+"{1,1,?}"->13; 13 [ label="{1,13,?}" ];
+"{1,1,?}"->14; 14 [ label="{1,14,?}" ];
+"{1,1,?}"->15; 15 [ label="{0,15,?}" ];
+"{1,1,?}"->16; 16 [ label="{0,16,?}" ];
+};
